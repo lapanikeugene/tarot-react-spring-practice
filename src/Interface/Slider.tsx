@@ -16,7 +16,7 @@ const TarotSlider = () => {
             
             if(newValue>value)
            { 
-            setValue(newValue);
+            setValue(val => val+1);
             dispatch(addStep());
             dispatch(shuffleDeck());
             }
@@ -27,10 +27,14 @@ const TarotSlider = () => {
     return (
         <Box sx={{ width: 250 }}>
             <Slider 
+            defaultValue={1}
             min={1}
             max={4}
+            step={1}
             value={value}
             onChange={handleChange}
+            valueLabelDisplay="auto"
+            marks
 
             />
         </Box>

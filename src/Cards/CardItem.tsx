@@ -5,6 +5,7 @@ import React, { useEffect, useState } from 'react';
 import { useAppSelector } from '../hooks/reduxHooks';
 import { selectCard } from '../redux/cardsSlice';
 import { useAppDispatch } from '../redux/store';
+import { spreadsDB } from './assets/spreads';
 
 const CardItem = (props:{cardNumber:number,cardName:string}) => {
     const dispatch = useAppDispatch();
@@ -14,6 +15,9 @@ const CardItem = (props:{cardNumber:number,cardName:string}) => {
     const [shouldBeInterpreted,setShouldBeInterpreted] = useState(false);
     const selector = useAppSelector((s)=>s.deck);
     const selectorCards = useAppSelector((s)=>s.cards);
+    const spreadSelector = useAppSelector(s=>s.spreads);
+
+
 
 
     const handleClick = () => {
@@ -45,12 +49,14 @@ const CardItem = (props:{cardNumber:number,cardName:string}) => {
           },
         })
       }
+     
       const handleClickAfter = () =>{
         if(!selected){
           setSelected(true);
           setShouldBeInterpreted(true);
           dispatch(selectCard(props.cardName))
           setFinalPosition(800,selectorCards.cards.length*90);
+          
         }
       }
       const setFinalPosition=(x:number,y:number) =>{
@@ -67,9 +73,30 @@ const CardItem = (props:{cardNumber:number,cardName:string}) => {
       }
 
       useEffect(()=>{
-        if(selectorCards.cards.length==4&&!shouldBeInterpreted)
+        if(selectorCards.cards.length==spreadsDB[spreadSelector.streapType].position.length&&!shouldBeInterpreted)
         {
           hideCard();
+         
+        }else{
+          let timer1 = setTimeout(() => {
+            const index = selectorCards.cards.indexOf(props.cardName);
+            
+            api.start({
+              from: {
+                left: position.x,
+                top: position.y,
+              },
+              to: {
+                left:spreadsDB[spreadSelector.streapType].position[index].x,
+                top:spreadsDB[spreadSelector.streapType].position[index].y,
+              },
+            })
+          }, 2000)
+
+          return  () => {
+            clearTimeout(timer1);
+          }
+          
         }
       },[selectorCards])
 
