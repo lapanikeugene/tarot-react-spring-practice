@@ -3,7 +3,7 @@
 import { Slider } from '@mui/material';
 import Box from '@mui/material/Box';
 import React, { useState } from 'react';
-import deckSlice, { addStep } from '../redux/deckSlice';
+import deckSlice, { addStep, shuffleDeck } from '../redux/deckSlice';
 import { useAppDispatch } from '../redux/store';
 
 const TarotSlider = () => {
@@ -18,6 +18,7 @@ const TarotSlider = () => {
            { 
             setValue(newValue);
             dispatch(addStep());
+            dispatch(shuffleDeck());
             }
         }
       };
