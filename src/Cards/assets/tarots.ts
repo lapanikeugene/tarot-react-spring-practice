@@ -261,74 +261,147 @@ export const tarotsDB:{[key:string]: any} = {
 
 
         
-        "Ace of Pentacles":{
-            desc:"New beginnings, prosperity, abundance",
+        "Ace of Swords":{
+            desc:"Clarity, sound decision making, a breakthrough",
+            answer:"yes",
+            image:"ace-of-swords-tarot-card.jpg"
+        },
+        "Two of Swords":{
+            desc:"Stalemate, coming to crossroads, time to think",
+            answer:"Not sure",
+            image:"two-of-swords-tarot-card.jpg"
+        },
+        "Three of Swords":{
+            desc:"Heartbreak, sadness, grief",
+            answer:"no",
+            image:"three-of-swords-tarot-card.jpg"
+        },
+        "Four of Swords":{
+            desc:"Anxiety, chronic stress, chaos",
+            answer:"ask later",
+            image:"four-of-swords-tarot-card.jpg"
+        },
+        "Five of Swords":{
+            desc:"Battles, arguments, conflict",
+            answer:"no",
+            image:"five-of-swords-tarot-card.jpg"
+        },
+        "Six of Swords":{
+            desc:"Letting go of hatred, healing, moving forward",
+            answer:"no",
+            image:"six-of-swords-tarot-card-1.jpg"
+        },
+        "Seven of Swords":{
+            desc:"Dishonesty, deceit, manipulation",
+            answer:"no",
+            image:"seven-of-swords-tarot-card.jpg"
+        },
+        "Eight of Swords":{
+            desc:"Feeling stuck, unproductive, hopeless",
+            answer:"no",
+            image:"eight-of-swords-tarot.jpg"
+        },
+        "Nine of Swords":{
+            desc:"Despair, hopelessness, anxiety",
+            answer:"no",
+            image:"nine-of-swords-tarot-card-768x1264.jpg"
+        },
+        "Ten of Swords":{
+            desc:"Mental breakdown, betrayal, failure",
+            answer:"no",
+            image:"ten-of-swords-meaning.jpg"
+        },
+        "Page of Swords":{
+            desc:"Youthful, confidence, fairness",
+            answer:"no",
+            image:"page-of-swords-tarot-card-1.jpg"
+        },
+        "Knight of Swords":{
+            desc:"Bravery, accomplishment, tenacity",
+            answer:"yes",
+            image:"knight-of-swords-tarot.jpg"
+        },
+        "Queen of Swords":{
+            desc:"Supportive, empathetic, independent",
+            answer:"Yes",
+            image:"queen-of-swords-tarot.jpg"
+        },
+        "King of Swords":{
+            desc:"Authority, logical, fatherly",
+            answer:"yes",
+            image:"king-of-swords-meaning.jpg"
+        },
+
+
+        
+        "Ace of Wands":{
+            desc:"Creativity, enthusiasm, a fresh start",
             answer:"yes",
             image:"ace-of-pentacles-tarot-card.webp"
         },
-        "Two of Pentacles":{
-            desc:"Finding balance, multi-tasking, perseverance",
+        "Two of Wands":{
+            desc:"Decisions, travel, personal power",
             answer:"Not sure",
             image:"two-of-pentacles-tarot-card.webp"
         },
-        "Three of Pentacles":{
-            desc:"Teamwork, focused effort, mastery",
+        "Three of Wands":{
+            desc:"Exploration and travel, leadership, moving forward",
             answer:"yes",
             image:"three-of-pentacles-tarot.jpg"
         },
-        "Four of Pentacles":{
-            desc:"Release of the past, giving up control, acceptance",
+        "Four of Wands":{
+            desc:"Celebration, excitement, homecoming",
             answer:"yes",
             image:"four-of-pentacles-tarot-card.jpg"
         },
-        "Five of Pentacles":{
-            desc:"Financial hardship, struggle, lack of faith",
+        "Five of Wands":{
+            desc:"Competition, disagreements, rivalry, challenges",
             answer:"no",
             image:"five-of-pentacles-tarot-card.webp"
         },
-        "Six of Pentacles":{
-            desc:"Generosity, shared wealth, prosperity",
+        "Six of Wands":{
+            desc:"Victory, triumph, recognition",
             answer:"yes",
             image:"six-of-pentacles-tarot-card.jpg"
         },
-        "Seven of Pentacles":{
-            desc:"Planning, perseverance, long-term success",
+        "Seven of Wands":{
+            desc:"Conviction, strong-willed, determined",
             answer:"Yes. But result is humble",
             image:"seven-of-pentacles-tarot-card-1.jpg"
         },
-        "Eight of Pentacles":{
-            desc:"Ambition, diligence, crafts and talents",
+        "Eight of Wands":{
+            desc:"Quick action, receiving news, exciting times",
             answer:"yes",
             image:"eight-of-pentacles-tarot-card.jpg"
         },
-        "Nine of Pentacles":{
-            desc:"Independence, prosperity, refinement",
+        "Nine of Wands":{
+            desc:"Perseverance, stamina, courage",
             answer:"yes",
             image:"nine-of-pentacles-tarot.jpg"
         },
-        "Ten of Pentacles":{
-            desc:"Inheritance, affluence, good family life",
+        "Ten of Wands":{
+            desc:"Struggling, overextending, feeling burdened",
             answer:"yes",
             image:"ten-of-pentacles-tarot-card.jpg"
         },
-        "Page of Pentacles":{
-            desc:"Sticking to goals, practicality, loyalty",
+        "Page of Wands":{
+            desc:"Outgoing, child-like cheerfulness, creative confidence",
             answer:"yes",
             image:"page-of-pentacles-tarot-card-768x1264.webp"
         },
-        "Knight of Pentacles":{
-            desc:"Consistency, strong will, improvement",
+        "Knight of Wands":{
+            desc:"Charming, self-confident, passionate",
             answer:"Yes",
             image:"knight-of-pentacles-tarot-card-768x1264.webp"
         },
-        "Queen of Pentacles":{
-            desc:"Nurturing healer, down-to-earth, gratitude",
+        "Queen of Wands":{
+            desc:"Fiery passion, self-assured, wholehearted",
             answer:"Yes",
             image:"queen-of-pentacles-tarot-card-1.jpg"
         },
-        "King of Pentacles":{
-            desc:"Enterprising, abundance, stability",
+        "King of Wands":{
+            desc:"Protective, innovative, inspiring, magnetic",
             answer:"yes",
             image:"king-of-pentacles-tarot-card.jpg"
-        },
+        }
     }
