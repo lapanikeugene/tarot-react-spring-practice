@@ -117,74 +117,74 @@ export const tarotsDB:{[key:string]: any} = {
 
        
         "Ace of Cups":{
-            desc:"Reflection, inner calling, reckoning, awakening, rebirth, absolution",
-            answer:"Unknown, ask later",
-            image:"21World.jpg"
+            desc:"Feeling free, fulfillment, new beginning",
+            answer:"yes",
+            image:"ace-of-cups-tarot-card.jpg"
         },
         "Two of Cups":{
-            desc:"Reflection, inner calling, reckoning, awakening, rebirth, absolution",
-            answer:"Unknown, ask later",
-            image:"21World.jpg"
+            desc:"Happiness, relationships, love",
+            answer:"yes",
+            image:"two-of-cups-tarot-card.jpg"
         },
         "Three of Cups":{
-            desc:"Reflection, inner calling, reckoning, awakening, rebirth, absolution",
-            answer:"Unknown, ask later",
-            image:"21World.jpg"
+            desc:"Celebrations, good conversation, reunions",
+            answer:"yes",
+            image:"three-of-cups-tarot-card.wepb"
         },
         "Four of Cups":{
-            desc:"Reflection, inner calling, reckoning, awakening, rebirth, absolution",
-            answer:"Unknown, ask later",
-            image:"21World.jpg"
+            desc:"Depression, missed opportunities, feeling stuck",
+            answer:"no",
+            image:"four-of-cups-tarot-card.jpg"
         },
         "Five of Cups":{
-            desc:"Reflection, inner calling, reckoning, awakening, rebirth, absolution",
-            answer:"Unknown, ask later",
-            image:"21World.jpg"
+            desc:"Sadness, loss, loneliness",
+            answer:"no",
+            image:"five-of-cups-tarot-card.webp"
         },
         "Six of Cups":{
-            desc:"Reflection, inner calling, reckoning, awakening, rebirth, absolution",
-            answer:"Unknown, ask later",
-            image:"21World.jpg"
+            desc:"Playful, nostalgic, carefree",
+            answer:"yes",
+            image:"six-of-cups-tarot-card.jpg"
         },
         "Seven of Cups":{
-            desc:"Reflection, inner calling, reckoning, awakening, rebirth, absolution",
-            answer:"Unknown, ask later",
-            image:"21World.jpg"
+            desc:"Abundance of options, choices, opportunities",
+            answer:"No. It's illusion.",
+            image:"seven-of-cups-tarot-card.jpg"
         },
         "Eight of Cups":{
-            desc:"Reflection, inner calling, reckoning, awakening, rebirth, absolution",
-            answer:"Unknown, ask later",
-            image:"21World.jpg"
+            desc:"Abandonment, travel, letting go",
+            answer:"No. Wrong way",
+            image:"eight-of-cups-tarot-card.jpg"
         },
         "Nine of Cups":{
-            desc:"Reflection, inner calling, reckoning, awakening, rebirth, absolution",
-            answer:"Unknown, ask later",
-            image:"21World.jpg"
+            desc:"Wishes coming true, fulfilled dreams, prosperity",
+            answer:"yes",
+            image:"nine-of-cups-tarot-card.webp"
         },
         "Ten of Cups":{
-            desc:"Reflection, inner calling, reckoning, awakening, rebirth, absolution",
-            answer:"Unknown, ask later",
-            image:"21World.jpg"
+            desc:"Happiness, family reunions, harmony",
+            answer:"yes",
+            image:"ten-of-cups-tarot-card.jpg"
         },
         "Page of Cups":{
-            desc:"Reflection, inner calling, reckoning, awakening, rebirth, absolution",
-            answer:"Unknown, ask later",
-            image:"21World.jpg"
+            desc:"Idealism, youthfulness, good news",
+            answer:"yes",
+            image:"page-of-cups-tarot-card.webp"
         },
         "Knight of Cups":{
-            desc:"Reflection, inner calling, reckoning, awakening, rebirth, absolution",
-            answer:"Unknown, ask later",
-            image:"21World.jpg"
+            desc:"Romantic proposals, invitations, following your heart",
+            answer:"Yes",
+            image:"knight-of-cups-tarot-card.jpg"
         },
         "Queen of Cups":{
-            desc:"Reflection, inner calling, reckoning, awakening, rebirth, absolution",
-            answer:"Unknown, ask later",
-            image:"21World.jpg"
+            desc:"Femininity, kindness, sensitivity",
+            answer:"Yes",
+            image:"queen-of-cups-tarot-card.jpg"
         },
         "King of Cups":{
-            desc:"Reflection, inner calling, reckoning, awakening, rebirth, absolution",
+            desc:"Good advice, creativity, wisdom",
             answer:"Unknown, ask later",
-            image:"21World.jpg"
+            image:"king-of-cups-tarot-card.jpg"
         },
         
     }
