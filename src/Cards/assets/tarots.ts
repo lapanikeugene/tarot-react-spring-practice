@@ -337,71 +337,71 @@ export const tarotsDB:{[key:string]: any} = {
         "Ace of Wands":{
             desc:"Creativity, enthusiasm, a fresh start",
             answer:"yes",
-            image:"ace-of-pentacles-tarot-card.webp"
+            image:"ace-of-wands-tarot-card.jpg"
         },
         "Two of Wands":{
             desc:"Decisions, travel, personal power",
             answer:"Not sure",
-            image:"two-of-pentacles-tarot-card.webp"
+            image:"two-of-wands-tarot-card.jpg"
         },
         "Three of Wands":{
             desc:"Exploration and travel, leadership, moving forward",
             answer:"yes",
-            image:"three-of-pentacles-tarot.jpg"
+            image:"three-of-wands-tarot-card.jpg"
         },
         "Four of Wands":{
             desc:"Celebration, excitement, homecoming",
             answer:"yes",
-            image:"four-of-pentacles-tarot-card.jpg"
+            image:"four-of-wands-tarot-card.jpg"
         },
         "Five of Wands":{
             desc:"Competition, disagreements, rivalry, challenges",
             answer:"no",
-            image:"five-of-pentacles-tarot-card.webp"
+            image:"five-of-wands-tarot-card.jpg"
         },
         "Six of Wands":{
             desc:"Victory, triumph, recognition",
             answer:"yes",
-            image:"six-of-pentacles-tarot-card.jpg"
+            image:"six-of-wands-tarot-card.jpg"
         },
         "Seven of Wands":{
             desc:"Conviction, strong-willed, determined",
             answer:"Yes. But result is humble",
-            image:"seven-of-pentacles-tarot-card-1.jpg"
+            image:"seven-of-wands-tarot-card.jpg"
         },
         "Eight of Wands":{
             desc:"Quick action, receiving news, exciting times",
             answer:"yes",
-            image:"eight-of-pentacles-tarot-card.jpg"
+            image:"eight-of-wands-tarot-card.jpg"
         },
         "Nine of Wands":{
             desc:"Perseverance, stamina, courage",
             answer:"yes",
-            image:"nine-of-pentacles-tarot.jpg"
+            image:"nine-of-wands-tarot-card.jpg"
         },
         "Ten of Wands":{
             desc:"Struggling, overextending, feeling burdened",
-            answer:"yes",
-            image:"ten-of-pentacles-tarot-card.jpg"
+            answer:"no",
+            image:"ten-of-wands-tarot-card.jpg"
         },
         "Page of Wands":{
             desc:"Outgoing, child-like cheerfulness, creative confidence",
             answer:"yes",
-            image:"page-of-pentacles-tarot-card-768x1264.webp"
+            image:"page-of-wands-tarot-card.jpg"
         },
         "Knight of Wands":{
             desc:"Charming, self-confident, passionate",
             answer:"Yes",
-            image:"knight-of-pentacles-tarot-card-768x1264.webp"
+            image:"knight-of-wands-tarot-card.jpg"
         },
         "Queen of Wands":{
             desc:"Fiery passion, self-assured, wholehearted",
             answer:"Yes",
-            image:"queen-of-pentacles-tarot-card-1.jpg"
+            image:"queen-of-wands-tarot-card-2.jpg"
         },
         "King of Wands":{
             desc:"Protective, innovative, inspiring, magnetic",
             answer:"yes",
-            image:"king-of-pentacles-tarot-card.jpg"
+            image:"king-of-wands-tarot-card.jpg"
         }
     }
