@@ -183,8 +183,152 @@ export const tarotsDB:{[key:string]: any} = {
         },
         "King of Cups":{
             desc:"Good advice, creativity, wisdom",
-            answer:"Unknown, ask later",
+            answer:"yes",
             image:"king-of-cups-tarot-card.jpg"
         },
         
+
+        "Ace of Pentacles":{
+            desc:"New beginnings, prosperity, abundance",
+            answer:"yes",
+            image:"ace-of-pentacles-tarot-card.webp"
+        },
+        "Two of Pentacles":{
+            desc:"Finding balance, multi-tasking, perseverance",
+            answer:"Not sure",
+            image:"two-of-pentacles-tarot-card.webp"
+        },
+        "Three of Pentacles":{
+            desc:"Teamwork, focused effort, mastery",
+            answer:"yes",
+            image:"three-of-pentacles-tarot.jpg"
+        },
+        "Four of Pentacles":{
+            desc:"Release of the past, giving up control, acceptance",
+            answer:"yes",
+            image:"four-of-pentacles-tarot-card.jpg"
+        },
+        "Five of Pentacles":{
+            desc:"Financial hardship, struggle, lack of faith",
+            answer:"no",
+            image:"five-of-pentacles-tarot-card.webp"
+        },
+        "Six of Pentacles":{
+            desc:"Generosity, shared wealth, prosperity",
+            answer:"yes",
+            image:"six-of-pentacles-tarot-card.jpg"
+        },
+        "Seven of Pentacles":{
+            desc:"Planning, perseverance, long-term success",
+            answer:"Yes. But result is humble",
+            image:"seven-of-pentacles-tarot-card-1.jpg"
+        },
+        "Eight of Pentacles":{
+            desc:"Ambition, diligence, crafts and talents",
+            answer:"yes",
+            image:"eight-of-pentacles-tarot-card.jpg"
+        },
+        "Nine of Pentacles":{
+            desc:"Independence, prosperity, refinement",
+            answer:"yes",
+            image:"nine-of-pentacles-tarot.jpg"
+        },
+        "Ten of Pentacles":{
+            desc:"Inheritance, affluence, good family life",
+            answer:"yes",
+            image:"ten-of-pentacles-tarot-card.jpg"
+        },
+        "Page of Pentacles":{
+            desc:"Sticking to goals, practicality, loyalty",
+            answer:"yes",
+            image:"page-of-pentacles-tarot-card-768x1264.webp"
+        },
+        "Knight of Pentacles":{
+            desc:"Consistency, strong will, improvement",
+            answer:"Yes",
+            image:"knight-of-pentacles-tarot-card-768x1264.webp"
+        },
+        "Queen of Pentacles":{
+            desc:"Nurturing healer, down-to-earth, gratitude",
+            answer:"Yes",
+            image:"queen-of-pentacles-tarot-card-1.jpg"
+        },
+        "King of Pentacles":{
+            desc:"Enterprising, abundance, stability",
+            answer:"yes",
+            image:"king-of-pentacles-tarot-card.jpg"
+        },
+
+
+        
+        "Ace of Pentacles":{
+            desc:"New beginnings, prosperity, abundance",
+            answer:"yes",
+            image:"ace-of-pentacles-tarot-card.webp"
+        },
+        "Two of Pentacles":{
+            desc:"Finding balance, multi-tasking, perseverance",
+            answer:"Not sure",
+            image:"two-of-pentacles-tarot-card.webp"
+        },
+        "Three of Pentacles":{
+            desc:"Teamwork, focused effort, mastery",
+            answer:"yes",
+            image:"three-of-pentacles-tarot.jpg"
+        },
+        "Four of Pentacles":{
+            desc:"Release of the past, giving up control, acceptance",
+            answer:"yes",
+            image:"four-of-pentacles-tarot-card.jpg"
+        },
+        "Five of Pentacles":{
+            desc:"Financial hardship, struggle, lack of faith",
+            answer:"no",
+            image:"five-of-pentacles-tarot-card.webp"
+        },
+        "Six of Pentacles":{
+            desc:"Generosity, shared wealth, prosperity",
+            answer:"yes",
+            image:"six-of-pentacles-tarot-card.jpg"
+        },
+        "Seven of Pentacles":{
+            desc:"Planning, perseverance, long-term success",
+            answer:"Yes. But result is humble",
+            image:"seven-of-pentacles-tarot-card-1.jpg"
+        },
+        "Eight of Pentacles":{
+            desc:"Ambition, diligence, crafts and talents",
+            answer:"yes",
+            image:"eight-of-pentacles-tarot-card.jpg"
+        },
+        "Nine of Pentacles":{
+            desc:"Independence, prosperity, refinement",
+            answer:"yes",
+            image:"nine-of-pentacles-tarot.jpg"
+        },
+        "Ten of Pentacles":{
+            desc:"Inheritance, affluence, good family life",
+            answer:"yes",
+            image:"ten-of-pentacles-tarot-card.jpg"
+        },
+        "Page of Pentacles":{
+            desc:"Sticking to goals, practicality, loyalty",
+            answer:"yes",
+            image:"page-of-pentacles-tarot-card-768x1264.webp"
+        },
+        "Knight of Pentacles":{
+            desc:"Consistency, strong will, improvement",
+            answer:"Yes",
+            image:"knight-of-pentacles-tarot-card-768x1264.webp"
+        },
+        "Queen of Pentacles":{
+            desc:"Nurturing healer, down-to-earth, gratitude",
+            answer:"Yes",
+            image:"queen-of-pentacles-tarot-card-1.jpg"
+        },
+        "King of Pentacles":{
+            desc:"Enterprising, abundance, stability",
+            answer:"yes",
+            image:"king-of-pentacles-tarot-card.jpg"
+        },
     }
