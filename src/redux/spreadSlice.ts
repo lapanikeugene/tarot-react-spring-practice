@@ -1,4 +1,4 @@
-import { createSlice } from "@reduxjs/toolkit";
+import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { spreadInitState } from "./spreadInitState";
 
 
@@ -6,9 +6,14 @@ import { spreadInitState } from "./spreadInitState";
 export const spreadSlice = createSlice({
     name:"spreads",
     initialState:spreadInitState,
-    reducers:{}
+    reducers:{
+        changeSpread: (state,action:PayloadAction<string>)=>
+        {
+            state.spreadType = action.payload;
+        }
+    }
 })
 
 
-
+export const {changeSpread} = spreadSlice.actions;
 export default spreadSlice.reducer;

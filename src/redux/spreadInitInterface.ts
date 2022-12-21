@@ -1,4 +1,4 @@
 export interface spreadInitInterface{
-    streapType:string, 
+    spreadType:string, 
     
 }

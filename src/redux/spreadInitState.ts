@@ -1,7 +1,8 @@
+import { dispatchCommand } from "../Cards/assets/dispatchCommands";
 import { spreadInitInterface } from "./spreadInitInterface";
 
 
 export const spreadInitState:spreadInitInterface = {
- streapType:"cards3",
+    spreadType:dispatchCommand.cards3,
 
 }

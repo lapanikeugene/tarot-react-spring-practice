@@ -1,6 +1,8 @@
+import { dispatchCommand } from "./dispatchCommands"
+
 export const spreadsDB:{[key:string]: any} =
     {
-        "one":{
+        "one card":{
             title:"Card of the day",
             description:"Simple tarot spread that can say you about next day",
             position:[{
@@ -9,7 +11,7 @@ export const spreadsDB:{[key:string]: any} =
                 desc:'card of the day'
             }]
         },
-        "cards3":{
+        "three cards":{
             title:"3 Cards",
             description:"3 cards tarot spread, that that predict future, and shows reasons of questions",
             position:[{

@@ -9,7 +9,10 @@ import { spreadsDB } from './assets/spreads';
 
 const CardItem = (props:{cardNumber:number,cardName:string}) => {
     const dispatch = useAppDispatch();
-    const [spring,api] = useSpring(()=>({from:{opacity:1,x:0,y:0,left:0,top:0}}));
+    const [spring,api] = useSpring(()=>({ from:{opacity:1,x:0,y:0,left:0,top:0},
+                                          to:{y:50},
+                                          delay:5*props.cardNumber
+                                        }));
     const [position, setPosition] = useState({x:0,y:0});
     const [selected,setSelected] = useState(true);
     const [shouldBeInterpreted,setShouldBeInterpreted] = useState(false);
@@ -33,6 +36,7 @@ const CardItem = (props:{cardNumber:number,cardName:string}) => {
             left:newPosX,
             top: newPosY,
           },
+        
         })
 
         setPosition({x:newPosX,y:newPosY})
@@ -73,7 +77,7 @@ const CardItem = (props:{cardNumber:number,cardName:string}) => {
       }
 
       useEffect(()=>{
-        if(selectorCards.cards.length==spreadsDB[spreadSelector.streapType].position.length&&!shouldBeInterpreted)
+        if(selectorCards.cards.length==spreadsDB[spreadSelector.spreadType].position.length&&!shouldBeInterpreted)
         {
           hideCard();
          
@@ -87,8 +91,8 @@ const CardItem = (props:{cardNumber:number,cardName:string}) => {
                 top: position.y,
               },
               to: {
-                left:spreadsDB[spreadSelector.streapType].position[index].x,
-                top:spreadsDB[spreadSelector.streapType].position[index].y,
+                left:spreadsDB[spreadSelector.spreadType].position[index].x,
+                top:spreadsDB[spreadSelector.spreadType].position[index].y-50,
               },
             })
           }, 2000)
@@ -124,7 +128,7 @@ const CardItem = (props:{cardNumber:number,cardName:string}) => {
             ...spring
 
         }}
-            className=" bg-slate-500 hover:bg-slate-900 cursor-pointer"
+            className="border bg-slate-500 hover:bg-slate-900 cursor-pointer back-side"
        />
     );
 };

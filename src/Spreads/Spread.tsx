@@ -5,7 +5,7 @@ import SpreadItem from './SpreadItem';
 
 const Spread = () => {
     const spreadSelector = useAppSelector(s=>s.spreads)
-    const [selectedSpread,setSelectedSpread] =useState(spreadsDB[spreadSelector.streapType])
+    const [selectedSpread,setSelectedSpread] =useState(spreadsDB[spreadSelector.spreadType])
 
     return (
         <section>

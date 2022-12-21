@@ -1,12 +1,14 @@
+import { animated, useSpring } from '@react-spring/web';
 import React from 'react';
+import { tarotsDB } from './assets/tarots';
 import CardItem from './CardItem';
 
 const Deck = () => {
-    
+
     return (
         <div>
-            {Array(54).fill(0).map((o,i)=><>
-            <CardItem key={`card-${i}`} cardNumber={i} cardName="placeholder" />
+            {Object.keys(tarotsDB).map((o,i)=><>
+            <CardItem key={`card-${i}`} cardNumber={i} cardName={o} />
             </>)}            
         </div>
     );
