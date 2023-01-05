@@ -1,6 +1,8 @@
 import { combineReducers } from "redux";
 import cardsSlice from "./cardsSlice";
 import deckSliceReducer from "./deckSlice";
+import modalSlice from "./modalSlice";
+import navigationSlice from "./navigationSlice";
 import spreadSlice from "./spreadSlice";
 
 
@@ -8,7 +10,9 @@ import spreadSlice from "./spreadSlice";
  const comboReducers = combineReducers({    
                                             deck:deckSliceReducer,
                                             cards:cardsSlice,
-                                            spreads:spreadSlice
+                                            spreads:spreadSlice,
+                                            navigation:navigationSlice,
+                                            modal:modalSlice
                                         });
 
 

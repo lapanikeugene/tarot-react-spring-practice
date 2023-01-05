@@ -3,6 +3,7 @@ import { deckInterface } from "./deckInterface";
 
 export const initDeckState:deckInterface = {
     mixStep:1,
+    isChoose:false,
     deck:[
         {x:x1*0,y:y1},
         {x:x1*1,y:y1},
@@ -21,7 +22,7 @@ export const initDeckState:deckInterface = {
         {x:x1*14,y:y1},
         {x:x1*15,y:y1},
         {x:x1*16,y:y1},
-        {x:x1*17,y:y1},
+        {x:x1*17,y:y1}, 
         {x:x1*18,y:y1},
         {x:x1*19,y:y1},
         {x:x1*20,y:y1},

@@ -23,8 +23,11 @@ export const deckSlice = createSlice({
                 state.deck[i] = state.deck[j];
                 state.deck[j] = temp;
               }
+        },
+        chooseCardsFromDeck:(state)=>{
+            state.isChoose=true;
         }
     }
 })
-export const {resetSteps, addStep,shuffleDeck} = deckSlice.actions;
+export const {resetSteps, addStep,shuffleDeck,chooseCardsFromDeck} = deckSlice.actions;
 export default deckSlice.reducer;

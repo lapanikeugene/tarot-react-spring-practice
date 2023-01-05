@@ -129,7 +129,7 @@ export const tarotsDB:{[key:string]: any} = {
         "Three of Cups":{
             desc:"Celebrations, good conversation, reunions",
             answer:"yes",
-            image:"three-of-cups-tarot-card.wepb"
+            image:"three-of-cups-tarot-card.webp"
         },
         "Four of Cups":{
             desc:"Depression, missed opportunities, feeling stuck",
@@ -382,7 +382,7 @@ export const tarotsDB:{[key:string]: any} = {
         "Ten of Wands":{
             desc:"Struggling, overextending, feeling burdened",
             answer:"no",
-            image:"ten-of-wands-tarot-card.jpg"
+            image:"ten-of-wands-tarot-card.webp"
         },
         "Page of Wands":{
             desc:"Outgoing, child-like cheerfulness, creative confidence",

@@ -5,5 +5,6 @@ interface Positions{
 }
 export interface deckInterface{
     mixStep:number,
-    deck:Positions[]
+    deck:Positions[],
+    isChoose:boolean
 }
