@@ -28,7 +28,7 @@ It's more concept and not app. I created it to practice animation library React 
 ## Lessons Learned During Development
 -  I practiced to use React Srping alot. 
 
-![Tarotspread Screenshot](tarotgh.png "Screenshot")
+![Tarotspread Screenshot](tarogh.png "Screenshot")
 
 
 ## Planned Features
